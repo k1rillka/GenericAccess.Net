@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericAccess
+namespace GenericAccess.Data.Common
 {
-    public class Class1
+    public interface IDeleted
     {
+        bool IsDeleted { get; set; }
     }
 }
