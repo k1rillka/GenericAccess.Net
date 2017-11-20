@@ -39,4 +39,10 @@ namespace GenericAccess.Data.Common
 
         int SaveChanges();
     }
+
+
+    public enum ContextType : byte
+    {
+        Test
+    }
 }
